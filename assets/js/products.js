@@ -1,3 +1,5 @@
+
+
 $(document).ready(function () {
 
     // set cart to 0 
@@ -102,7 +104,7 @@ function addToCart(id, price) {
 function updateHTML(id) {
 
     // get value from JSON
-    $.getJSON("../products.json", function (result) {
+    $.getJSON("https://captain-31.github.io/task/products.json", function (result) {
 
         let res = result.products.find(x => x.id === id);
 

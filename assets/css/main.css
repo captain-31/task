@@ -1,0 +1,274 @@
+.cart-icon {
+  width: 40px;
+}
+
+.cart-holder {
+  background-color: #d9f5f4;
+  border-radius: 0px 0px 0px 10px;
+  padding: 14px;
+}
+
+.cart-number {
+  font-family: "Nunito", sans-serif;
+  background-color: #fff;
+  border-radius: 50px;
+  width: 18px;
+  padding: 0px;
+  text-align: center;
+  font-size: 12px;
+  display: none;
+}
+
+.hulk-logo {
+  width: 220px;
+}
+
+.logo-row {
+  margin-top: -20px;
+}
+
+.cap-bar {
+  height: 600px;
+  /* width: 500px; */
+  background-image: url("../images/cap-bar.png");
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.bg-container {
+  margin-top: 120px;
+}
+
+.right-bg-area {
+  height: 500px;
+  background-color: #d9f5f4;
+}
+
+.head-barlow {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.bold-barlow {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.text-nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+.custom-button {
+  width: 200px;
+  border-radius: 0;
+  letter-spacing: 1.3px;
+  color: #221f20;
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.overlay-block {
+  margin-top: -34rem;
+  max-width: 1500px;
+}
+
+/* Added */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.product-title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: #1e1e1e;
+}
+
+.product-price {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #1e1e1e;
+}
+
+.product-card {
+  flex: 1 20%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.product-card img {
+  margin-bottom: 15px;
+}
+
+.featured-image {
+  width: 300px;
+}
+
+.cart-btn {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  border: 1px solid #1e1e1e;
+  letter-spacing: 1.3px;
+  color: #221f20;
+  text-transform: uppercase;
+  border-radius: 0;
+  height: 45px;
+}
+
+.drawer-head {
+  border-bottom: 1px solid #221f20;
+}
+
+.drawer-head h5 {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.item-count {
+  font-size: 20px;
+  text-transform: uppercase;
+  display: none;
+}
+
+.checkout-block {
+  border-top: 1px solid #221f20;
+  background-color: #eff5f7;
+  width: 100%;
+  padding: 24px;
+  position: relative;
+  top: 100%;
+  transform: translateY(-100%);
+}
+
+.checkout-text,
+.checkout-price {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.checkout-btn {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  border: 1px solid #1e1e1e;
+  letter-spacing: 1.8px;
+  color: #ffffff;
+  background-color: #1e1e1e;
+  text-transform: uppercase;
+  border-radius: 0;
+  height: 54px;
+}
+
+.promo-text {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0px;
+  color: #221f20;
+}
+
+.cart-name {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.35px;
+  color: #221f20;
+  text-transform: uppercase;
+}
+
+.cart-color {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  color: #221f20;
+}
+
+.cart-controller {
+  background-color: #f6f6f6;
+  border-radius: 20px;
+}
+
+.btn-operation {
+  padding: 1px 15px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn-operation:hover {
+  color: #000000;
+}
+
+.custom-offcanvas {
+  width: 500px;
+}
+
+.remove-block {
+  text-align: right;
+}
+
+.total-price {
+  text-align: right;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #221f20;
+}
+
+.small-text {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 12px;
+  color: #221f20;
+  font-weight: 700;
+}
+
+.big-title {
+  font-size: 40px;
+  letter-spacing: 0px;
+  color: #221f20;
+}
+
+/* Product media query */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .product-card {
+    flex: 1 50%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .product-card {
+    flex: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-container {
+    margin-top: 60px;
+  }
+  .cart-holder {
+    padding: 10px;
+  }
+  .cart-icon {
+    width: 30px;
+  }
+  .featured-collection {
+    text-align: center;
+  }
+  .scroll-animation {
+    display: none;
+  }
+  .products-block {
+    margin-top: 10px !important;
+  }
+  .cart-draw-img {
+    width: 75px;
+  }
+}

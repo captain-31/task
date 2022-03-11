@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart App</title>
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <!-- Fonts - Nunito, Barlow Condensed, Josefin Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Josefin+Sans:wght@700&family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- jQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <div class="container-fluid">
+      <!-- Cart Icon -->
+      <div class="row">
+        <div class="col g-0">
+          <!-- <div class="float-end cart-holder position-relative">
+            <img class="cart-icon" src="cart.png" />
+            <div class="cart-number position-absolute bottom-0 end-0">3</div>
+
+          </div> -->
+
+          <div class="float-end cart-holder">
+            <div class="position-relative">
+              <img
+                class="cart-icon"
+                src="./assets/images/cart.png"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              />
+              <div class="cart-number position-absolute bottom-0 end-0">3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Logo -->
+      <div class="row logo-row">
+        <img
+          src="./assets/images/logo.svg"
+          class="hulk-logo mx-auto"
+          alt="Hulk Apps Logo"
+        />
+      </div>
+    </div>
+
+    
+
+    <!-- ATF -->
+    <div class="container-fluid  pt-5 bg-container">
+      <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6 right-bg-area"></div>
+      </div>
+    </div>
+
+    <div class="container overlay-block">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="d-flex flex-column bd-highlight mb-3">
+            <div class="p-2 bd-highlight">
+              <h2 class="head-barlow">MADE FOR YOU</h2>
+              <p class="text-nunito">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                pulvinar ac tortor imperdiet commodo.
+              </p>
+              <button type="button" class="btn btn-outline-dark custom-button">
+                Learn More
+              </button>
+            </div>
+            <div class="p-2 bd-highlight">
+              <img src="./assets/images/One.png" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="d-flex align-items-end flex-column bd-highlight mb-3">
+            <div class="p-2 bd-highlight">
+              <img src="./assets/images/two.png" class="img-fluid" />
+            </div>
+            <div class="p-2 bd-highlight">
+              <img src="./assets/images/three.png" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 align-self-center">
+          <div class="d-flex flex-column bd-highlight mb-3">
+            <div class="p-2 bd-highlight">
+              <img src="./assets/images/four.png" class="img-fluid"/>
+            </div>
+            <div class="p-2 bd-highlight">
+              <h2 class="head-barlow">FIND YOUR SPARKLE.</h2>
+              <p class="text-nunito" style="font-size: 13px">
+                SHOP OUR PRODUCTS
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ATF -->
+
+    <!-- Scroll animation section -->
+    <div class="container my-5 py-5 scroll-animation">
+      <div class="row">
+          <div class="col-md-7 text-center" >
+              <!-- <div class="cap-bar">
+
+              </div> -->
+              <img src="./assets/images/cap-bar.png" class="animation-1" width="270px" class="img-fluid">
+          </div>
+          <div class="col-md-5 align-self-center">
+              <p class="small-text">RICH FLAVOR WITHOUT THE GRIT</p>
+              <h2 class="big-title bold-barlow">DUAL MICRO FILTER SYSTEM</h2>
+              <p class="text-nunito">Unlike other presses, the patented double micro-filter keeps your cup extraordinarily free of grit and sludge. The two micro filters snap together trapping sediment and grounds at the bottom of the brewer.</p>
+          </div>
+      </div>
+  </div>
+  <!-- Scroll animation section -->
+
+    <!-- Products section -->
+    <div class="container mt-5 pt-4 products-block">
+      <div class="row mb-4">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="bold-barlow">FEATURED COLLECTION</h2>
+          <p class="text-nunito featured-collection">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            pulvinar ac tortor imperdiet commodo.
+          </p>
+        </div>
+      </div>
+
+      <!-- using custom flex -->
+      <div class="row">
+        <div class="product-container"></div>
+      </div>
+
+      <!-- Offcanvas - Cart Drawer -->
+      <div
+        class="offcanvas offcanvas-end custom-offcanvas"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header drawer-head">
+          <h5 id="offcanvasRightLabel" class="bold-barlow ms-2">
+            Your Bag <span class="item-count">(2 items)</span>
+          </h5>
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body p-0">
+          <!-- Product area -->
+
+          <!-- Checkout area -->
+          <div class="checkout-block">
+            <div class="d-flex justify-content-between">
+              <p class="checkout-text">Subtotal</p>
+              <p class="checkout-price">$0</p>
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-outline-dark checkout-btn" type="button">
+                <img src="./assets/images/lock-line.png" class="me-2" />CHECKOUT
+              </button>
+            </div>
+            <p class="promo-text p-3">
+              Have a promo code? Enter your code at checkout. Shipping & taxes
+              are calculated during checkout.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Products section end -->
+
+    <!-- custom js -->
+    <script src="./assets/js/products.js"></script>
+  </body>
+</html>
